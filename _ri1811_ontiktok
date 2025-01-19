@@ -1,4 +1,4 @@
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/vinh12eqweaws/zingmods/refs/heads/main/zingpro')))()
+local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/ri1811/cailon/refs/heads/main/_ri1811_ontiktok"))()
 
 local Window = OrionLib:MakeWindow({Name = "rdt HUB by _ri1811_", HidePremium = false, SaveConfig = true, ConfigFolder = "dxl_bf"})
 
