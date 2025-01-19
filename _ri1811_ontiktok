@@ -1,4 +1,4 @@
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/ri1811/cailon/refs/heads/main/_ri1811_ontiktok')))()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/vinh12eqweaws/zingmods/refs/heads/main/zingpro')))()
 
 local Window = OrionLib:MakeWindow({Name = "rdt HUB by _ri1811_", HidePremium = false, SaveConfig = true, ConfigFolder = "dxl_bf"})
 
@@ -12,7 +12,6 @@ local Tab2 = Window:MakeTab({
 	Name = "Mod Client",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
-})
 
 local Tab3 = Window:MakeTab({
 	Name = "Mod Game",
@@ -20,10 +19,24 @@ local Tab3 = Window:MakeTab({
 	PremiumOnly = false
 })
 local Tab4 = Window:MakeTab({
-	Name = "Script Cũ",
+	Name = "game doors by rbt hb",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
+
+local Tab5 = Window:MakeTab({
+	Name = "anime defense",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab5:AddButton({
+	Name = "buang hub",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/buang5516/buanghub/main/BUANGHUB.lua"))()
+end
+})
+
 Tab3:AddButton({
 	Name = "RTX",
 	Callback = function()
@@ -131,62 +144,34 @@ Tab4:AddButton({
 })
 
 Tab4:AddButton({
-	Name = "FTS X Hub!",
+	Name = "mspaint hub",
 	Callback = function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/tufreescript/FTS-X-Hub/main/FTSXHUB%20V1'))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/notpoiu/mspaint/main/main.lua"))()
   	end    
 })
 
 Tab4:AddButton({
-	Name = "T7GFY GUI",
+	Name = "black king hb,
 	Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/minded102/dokinbog/main/README.md", true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing-obf/main/Doors%20Blackking%20And%20BobHub"))()
   	end    
 })
 
 Tab4:AddButton({
-	Name = "CFrame Hub",
+	Name = "scripct qq j t cx deo bt ten",
 	Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Steveee11/Scripts/main/Blox%20Fruits%20OP%20Script"))()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/FLOOR-2-DOORS-floor-2-kardian-scripts-leaked-mspaint-Grunberg-s*-18419"))()
   	end    
 })
 
 Tab4:AddButton({
-	Name = "Flare Hub",
+	Name = "ffj1 hub",
 	Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/master/flares"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/Loader.lua"))()
   	end    
 })
 
-Tab4:AddButton({
-	Name = "BLCK Hub",
-	Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/BLCK"))()
-  	end    
-})
-
-Tab4:AddButton({
-	Name = "Modz HUb",
-	Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/master/modz"))()
-  	end    
-})
-
-Tab4:AddButton({
-	Name = "Hoho Hub",
-	Callback = function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
-  	end    
-})
-
-Tab4:AddButton({
-	Name = "Lol Hub",
-	Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/neon"))()
-  	end    
-})
-
-Tab4:AddButton({
+Tab:AddButton({
 	Name = "W- fuck du",
 	Callback = function()
         getgenv().Team = "Pirates"
@@ -194,15 +179,7 @@ Tab4:AddButton({
   	end    
 })
 
-Tab4:AddButton({
-	Name = "Uranium/Switch Hub",
-	Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Augustzyzx/UraniumX/main/src_.lua.txt"))()
-  	end    
-})
-
-
-Tab4:AddButton({
+Tab:AddButton({
 	Name = "Redz hub",
 	Callback = function()
         local Settings = {
@@ -211,12 +188,5 @@ Tab4:AddButton({
 	}
 	
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))(Settings)
-  	end    
-})
-
-Tab4:AddButton({
-	Name = "Mukuro Hub",
-	Callback = function()
-        loaloadstring(game:HttpGet("https://raw.githubusercontent.com/xDepressionx/Free-Script/main/BloxFruit.lua"))()
   	end    
 })
